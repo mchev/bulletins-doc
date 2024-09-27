@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/bulletins-doc/',
   lang: 'fr-FR',
   title: "Documentation",
   description: "Documentation permettant de guider les administrateurs et éditeurs des bulletins.",
