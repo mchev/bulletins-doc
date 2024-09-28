@@ -37,8 +37,6 @@ export default defineConfig({
         items: [
           { text: 'Utilisateurs', link: '/users/users' },
           { text: 'Collectifs', link: '/users/collectifs' },
-          { text: 'Importer des utilisateurs', link: '/users/import' },
-          { text: 'Exporter des utilisateurs', link: '/users/export' }
         ]
       },
       {
@@ -48,7 +46,7 @@ export default defineConfig({
           { text: 'Les sections', link: '/settings' },
           { text: 'Les modules', link: '/settings' },
           { text: 'Télécharger le PDF', link: '/settings' },
-          { text: 'Commentaires', link: '/themes' },
+          { text: 'Commentaires', link: '/posts/comments' },
         ]
       },
       {

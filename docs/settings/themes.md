@@ -1,5 +1,7 @@
 # Thèmes
 
+> Pour cette étape, vous devez avoir les droits administrateurs sur le portail.
+
 Grâce aux thèmes, vous pouvez adapter l'apparence de chaque abonnement proposé aux utilisateurs.
 
 Cela vous permet de concevoir des visuels distincts pour chaque abonnement sous votre gestion.
