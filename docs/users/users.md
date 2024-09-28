@@ -22,7 +22,7 @@ Lors de votre première utilisation, votre utilisateur n'a pas d'abonnement. Pou
 
 1. Cliquez sur "Utilisateurs" dans la barre latérale gauche.
 
-2. Cliquez sur le bouton "Ajouter" en haut à droite.
+2. Cliquez sur le bouton `Ajouter` en haut à droite.
 
 3. Vous allez voir apparaître un formulaire permettant de saisir les informations de l'utilisateur.
 
@@ -38,7 +38,7 @@ Il est essentiel que l'adresse email soit à la fois valide et unique. C'est sur
 L'entrée de la ville est cruciale pour obtenir les coordonnées GPS, ce qui permet d'afficher les données météorologiques.
 :::
 
-4. Cliquez sur le bouton "Enregistrer" en haut à droite.
+4. Cliquez sur le bouton `Enregistrer` en haut à droite.
 
 ## Rechercher un utilisateur
 
@@ -64,11 +64,11 @@ Une fois que vous avez trouvé les utilisateurs souhaités, vous pouvez exporter
 
 1. Cliquez sur "Utilisateurs" dans la barre latérale gauche.
 
-2. Cliquez sur le bouton "Importer" en haut à droite.
+2. Cliquez sur le bouton `Importer` en haut à droite.
 
 3. Vous allez voir apparaître un formulaire permettant de saisir les informations des utilisateurs.
 
-4. Cliquez sur le bouton "Enregistrer" en haut à droite.
+4. Cliquez sur le bouton `Enregistrer` en haut à droite.
 
 :::warning Vérifiez votre fichier
 Assurez-vous que votre fichier est au format XLSX (Excel) et que les colonnes correspondent aux champs attendus. Vous pouvez télécharger le modèle de fichier XLSX.
@@ -80,7 +80,7 @@ Assurez-vous que votre fichier est au format XLSX (Excel) et que les colonnes co
 
 1. Cliquez sur "Utilisateurs" dans la barre latérale gauche.
 
-2. Cliquez sur le bouton "Exporter" en haut à droite.
+2. Cliquez sur le bouton `Exporter` en haut à droite.
 
 3. Votre fichier est généré et téléchargé automatiquement.
 
@@ -90,9 +90,9 @@ Assurez-vous que votre fichier est au format XLSX (Excel) et que les colonnes co
 
 2. Séléctionnez l'utilisateur dans la liste.
 
-3. Cliquez sur le bouton "Supprimer" en haut à droite.
+3. Cliquez sur le bouton `Supprimer` en haut à droite.
 
-4. Une fenêtre de confirmation apparaît. Cliquez sur "Ok" pour confirmer.
+4. Une fenêtre de confirmation apparaît. Cliquez sur `Ok` pour confirmer.
 
 ## Attribuer un abonnement à un utilisateur
 
@@ -100,11 +100,11 @@ Assurez-vous que votre fichier est au format XLSX (Excel) et que les colonnes co
 
 2. Séléctionnez l'utilisateur dans la liste.    
 
-3. Cliquez sur le bouton "Ajouter un abonnement" dans la section "Abonnements".
+3. Cliquez sur le bouton `Ajouter un abonnement` dans la section "Abonnements".
 
 4. Un formulaire apparaît, vous permettant de choisir l'abonnement, la date de début et la durée de l'abonnement, exprimée en jours.
 
-5. Cliquez sur le bouton "Enregistrer".
+5. Cliquez sur le bouton `Enregistrer`.
 
 L'utilisateur à maintenant accès aux bulletins de l'abonnement séléctionné.
 
@@ -114,19 +114,17 @@ L'utilisateur à maintenant accès aux bulletins de l'abonnement séléctionné.
 
 2. Séléctionnez l'utilisateur dans la liste.
 
-3. Cliquez sur le bouton "Joindre un collectif" dans la section "Collectifs".
+3. Cliquez sur le bouton `Joindre un collectif` dans la section "Collectifs".
 
 3. Vous pouvez alors séléctionner un collectif dans la liste déroulante ou créer un nouveau collectif.
 
-4. Cliquez sur le bouton "Joindre".
+4. Cliquez sur le bouton `Joindre`.
 
 ## Synchronisation Brevo
 
-La création, modification et suppression d'un utilisateur dans le portail synchronise également votre compte [Brevo](https://brevo.com){rel="nofollow"}.
-
-Pour cela, assurez-vous que l'adresse email saisie dans l'utilisateur est la même que celle dans Brevo.
-
-Cela permet de s'assurer que l'utilisateur est bien identifié dans Brevo.
+La création, modification et suppression d'un utilisateur dans le portail synchronise automatiquement votre compte [Brevo](https://brevo.com){rel="nofollow"}.
 
 Brevo vous permet ensuite d'envoyer des emails ou des campagnes d'informations aux utilisateurs.
+
+Le système Brevo permet également à l'application d'envoyer des emails aux utilisateurs. Par exemple, pour envoyer un email de réinitialisation de mot de passe.
 

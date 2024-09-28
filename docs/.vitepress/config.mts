@@ -29,7 +29,8 @@ export default defineConfig({
           { text: 'Accès à l\'administration', link: '/settings/login' },
           { text: 'Configuration', link: '/settings/settings' },
           { text: 'Themes', link: '/settings/themes' },
-          { text: 'Abonnements', link: '/settings/plans' }
+          { text: 'Abonnements', link: '/settings/plans' },
+          { text: 'Pages', link: '/settings/pages' },
         ]
       },
       {
@@ -42,26 +43,19 @@ export default defineConfig({
       {
         text: 'Bulletins',
         items: [
-          { text: 'Créer un bulletin', link: '/login' },
-          { text: 'Les sections', link: '/settings' },
-          { text: 'Les modules', link: '/settings' },
-          { text: 'Télécharger le PDF', link: '/settings' },
+          { text: 'Créer un bulletin', link: '/posts/create' },
+          { text: 'Les sections', link: '/posts/sections' },
+          { text: 'Les modules', link: '/posts/modules' },
+          { text: 'Télécharger le PDF', link: '/posts/download' },
           { text: 'Commentaires', link: '/posts/comments' },
-        ]
-      },
-      {
-        text: 'Pages',
-        items: [
-          { text: 'Présentation', link: '/login' },
-          { text: 'Créer une page', link: '/login' },
         ]
       },
       {
         text: 'Carte des observations',
         items: [
-          { text: 'Cropscan', link: '/login' },
-          { text: 'Gestion des parcelles', link: '/login' },
-          { text: 'Importer des observations', link: '/settings' },
+          { text: 'Cropscan', link: '/cropscan/presentation' },
+          { text: 'Gestion des parcelles', link: '/cropscan/parcelles' },
+          { text: 'Importer des observations', link: '/cropscan/imports' },
         ]
       },
     ],
