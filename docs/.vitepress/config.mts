@@ -31,6 +31,7 @@ export default defineConfig({
           { text: 'Themes', link: '/settings/themes' },
           { text: 'Abonnements', link: '/settings/plans' },
           { text: 'Pages', link: '/settings/pages' },
+          { text: 'Parcelles', link: '/settings/parcelles' },
         ]
       },
       {
@@ -44,18 +45,16 @@ export default defineConfig({
         text: 'Bulletins',
         items: [
           { text: 'Créer un bulletin', link: '/posts/create' },
-          { text: 'Les sections', link: '/posts/sections' },
           { text: 'Les modules', link: '/posts/modules' },
           { text: 'Télécharger le PDF', link: '/posts/download' },
           { text: 'Commentaires', link: '/posts/comments' },
         ]
       },
       {
-        text: 'Carte des observations',
+        text: 'Divers',
         items: [
-          { text: 'Cropscan', link: '/cropscan/presentation' },
-          { text: 'Gestion des parcelles', link: '/cropscan/parcelles' },
-          { text: 'Importer des observations', link: '/cropscan/imports' },
+          { text: 'Cropscan', link: '/divers/cropscan' },
+          { text: 'Sources météo', link: '/divers/sources-meteo' },
         ]
       },
     ],
