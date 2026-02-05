@@ -9,6 +9,7 @@ Rendez-vous sur l'adresse de votre portail :
 - Marne : https://conseil-info-agri.fr
 - Pays de la loire : https://bulletins-capdl.fr
 - Saône et Loire : https://protechebdo.fr
+- Côte d'or : https://vitiflash.fr
 
 ## Connexion
 

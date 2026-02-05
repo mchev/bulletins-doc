@@ -27,11 +27,14 @@ export default defineConfig({
         text: 'Paramétrage',
         items: [
           { text: 'Accès à l\'administration', link: '/settings/login' },
+          { text: 'Tableau de bord', link: '/settings/dashboard' },
           { text: 'Configuration', link: '/settings/settings' },
           { text: 'Themes', link: '/settings/themes' },
           { text: 'Abonnements', link: '/settings/plans' },
           { text: 'Pages', link: '/settings/pages' },
           { text: 'Parcelles', link: '/settings/parcelles' },
+          { text: 'Ressources', link: '/settings/resources' },
+          { text: 'Journal des modifications', link: '/settings/changelog' },
         ]
       },
       {
@@ -48,6 +51,12 @@ export default defineConfig({
           { text: 'Les modules', link: '/posts/modules' },
           { text: 'Télécharger le PDF', link: '/posts/download' },
           { text: 'Commentaires', link: '/posts/comments' },
+        ]
+      },
+      {
+        text: 'Contenu',
+        items: [
+          { text: 'Articles', link: '/posts/articles' },
         ]
       },
       {
