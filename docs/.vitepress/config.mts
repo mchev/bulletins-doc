@@ -19,7 +19,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Tickets', link: '/markdown-examples' }
+      { text: 'Démarrer', link: '/settings/login' },
+      { text: 'Bulletins', link: '/posts/create' },
     ],
 
     sidebar: [
@@ -64,12 +65,11 @@ export default defineConfig({
         items: [
           { text: 'Cropscan', link: '/divers/cropscan' },
           { text: 'Sources météo', link: '/divers/sources-meteo' },
+          { text: 'Tickets (signalements)', link: '/support-tickets' },
         ]
       },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    socialLinks: []
   }
 })
