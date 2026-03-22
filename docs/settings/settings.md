@@ -64,6 +64,17 @@ Le pied de page est optionnel.
 
 S'affiche en bas de chaque page du portail.
 
+## Brevo {#brevo}
+
+Une section **Brevo** permet de lancer une **synchronisation** entre les contacts du portail et les **listes Brevo** rattachées aux abonnements (abonnements directs et **collectifs**).
+
+- Cliquez sur **Synchroniser Brevo maintenant** pour déclencher la mise à jour. Le traitement s’exécute **en arrière-plan** et peut prendre quelques minutes selon le volume.
+- Cette action est utile après des changements d’abonnements ou pour s’assurer que les **destinataires** des envois automatiques de bulletins correspondent bien aux abonnés actuels — voir aussi [Brevo (abonnement)](/settings/plans#brevo-templates-et-envoi-automatique) et [Envoi automatique depuis l’éditeur de bulletin](/posts/create#envoi-automatique-par-e-mail-brevo).
+
+::: tip Clé API
+La synchronisation et les envois automatiques nécessitent une **configuration Brevo** valide côté serveur (clé API). En l’absence de configuration, les boutons ou messages d’erreur vous l’indiquent.
+:::
+
 ## Scripts
 
 Les scripts seront insérés dans la balise head du site. Ils permettent par exemple d'intégrer un outil de statistique.

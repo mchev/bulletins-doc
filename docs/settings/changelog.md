@@ -14,7 +14,7 @@ Pour accéder au journal des modifications :
 
 Le journal des modifications contient :
 
-- **Nouvelles fonctionnalités** : Les nouvelles fonctionnalités ajoutées à l'application.
+- **Nouvelles fonctionnalités** : Les nouvelles fonctionnalités ajoutées à l'application (par exemple l’**envoi automatique des bulletins par e-mail** via Brevo, documenté dans [Créer un bulletin](/posts/create#envoi-automatique-par-e-mail-brevo) et [Abonnements — Brevo](/settings/plans#brevo-templates-et-envoi-automatique)).
 - **Améliorations** : Les améliorations apportées aux fonctionnalités existantes.
 - **Corrections de bugs** : Les corrections de problèmes identifiés.
 - **Modifications techniques** : Les changements techniques importants.

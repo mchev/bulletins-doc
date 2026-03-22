@@ -86,6 +86,29 @@ Ce module permet de publier des prévisions de traitement pour aider les abonné
 #### Commentaires
 Ce module permet aux abonnés de laisser des commentaires. Voir la section [commentaires](/posts/comments.md) pour plus d'informations.
 
+## Brevo (templates et envoi automatique) {#brevo-templates-et-envoi-automatique}
+
+Lors de l’édition d’un abonnement, un onglet **Brevo** permet de relier l’abonnement à votre compte **Brevo** pour l’**envoi automatique** des bulletins par e-mail.
+
+### Template e-mail
+
+- Choisissez un **template SMTP transactionnel** Brevo. Ce modèle définit la mise en page du message envoyé aux abonnés.
+- Vous pouvez **tester la connexion** à l’API Brevo depuis cet écran (présence de la clé, liste des templates disponibles).
+- Les **variables** utilisables dans le template (pour injecter titre, date, liens, etc.) sont listées sur cette page ; elles correspondent aux paramètres fournis par l’application lors de la création de la campagne.
+
+### Envoi automatique par défaut
+
+Une case permet d’**activer l’envoi automatique par défaut à la publication** pour tous les bulletins de cet abonnement.
+
+- Si cette option est activée sur le plan, chaque bulletin **nouveau ou sans choix explicite** peut déclencher une campagne à la publication, **sous réserve** qu’un template soit défini et que la liste Brevo associée à l’abonnement contienne des contacts.
+- Sur le **bulletin** lui-même, les éditeurs peuvent en général **confirmer ou désactiver** l’envoi pour une édition précise (voir [Créer un bulletin — Envoi automatique](/posts/create#envoi-automatique-par-e-mail-brevo)).
+
+### Listes et abonnés
+
+Chaque abonnement est associé à une **liste de contacts Brevo** : les abonnés du plan (y compris via les **collectifs**) y sont synchronisés. L’envoi « automatique » cible cette liste (campagne Brevo), et non une saisie manuelle d’adresses dans l’éditeur.
+
+Pour forcer une remise à niveau des contacts et listes avec les abonnements en cours, les administrateurs peuvent utiliser l’action **Synchroniser Brevo maintenant** dans les [Paramètres](/settings/settings#brevo).
+
 ## Conseils
 
 Cette section est un peu particulière. Elle permet de définir la liste des conseils qui seront crée par défaut dans chaque bulletin.

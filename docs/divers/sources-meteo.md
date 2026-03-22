@@ -38,11 +38,18 @@ Vos services doivent fournir une clé API afin d'utiliser cette source.
 
 https://weenat.com/
 
-Cette source n'est pas encore disponible. Elle sera acccesible sur demande par vos services au niveau national.
+Source payante, disponible lorsque votre déploiement est configuré avec une clé API Weenat.
 
 :::info Clé API
 Vos services doivent fournir une clé API afin d'utiliser cette source.
 :::
+
+## Choisir la source depuis le tableau de bord
+
+Dans les modules **prévisions météo** et **historique pluviométrique**, un menu **Source** permet de sélectionner le fournisseur de données (parmi ceux configurés sur le portail).
+
+- Si la source sélectionnée rencontre une erreur, vous pouvez en **choisir une autre** dans ce menu **sans recharger la page**.
+- **Meteoblue** est une source payante ; en cas de problème d’affichage ou de disponibilité, basculer temporairement vers une autre source (par ex. OpenMeteo) peut permettre de continuer à consulter les prévisions.
 
 ## OpenWeatherMap
 
